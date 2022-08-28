@@ -1,0 +1,76 @@
+.add{
+    height: 89vh;
+}
+
+.add__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 51px;
+	color: #000000;
+    margin: 0;
+    margin-bottom: 22px;
+}
+
+
+.add__form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.add-form__left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 50%;
+     padding-left: 100px;
+     
+}
+.add-form__right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:0 80px;
+    width: 50%;
+    background-color: #E5E5E5;
+
+}
+.add-file{
+    margin-right: 15px;
+    margin-top: 80px;
+}
+.add-label{
+    width: 328px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #152540;
+    border-radius: 99px;
+    padding: 5px 20px;
+    border: none;
+}
+.add__input{
+    width: 330px;
+    background-color: #FFFFFF;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;   
+    color: #AAAAAA;
+    padding: 13px 30px;
+    margin-bottom: 16px;
+
+    &:nth-child(8){
+        margin-bottom: 45px;
+    }
+}
+
+.add-file--active{
+    margin-top: 40px;
+    margin-right: 0;
+}
+.add-label--active{
+    width: 310px;
+}

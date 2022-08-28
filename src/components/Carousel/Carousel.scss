@@ -1,0 +1,23 @@
+.test{
+    width: 100%;
+    height: 347px;
+    border-radius: 21px;
+    background-blend-mode: lighten;
+    background-image:  linear-gradient(89.16deg, #263A3D 70.78%, rgba(25, 25, 25, 0) 105.05%);
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+
+.carousel__inner{
+    padding: 45px 85px;
+    background-image:  linear-gradient(89.16deg, #263A3D 70.78%, rgba(25, 25, 25, 0) 105.05%);
+    background-size: 100%;
+    border-radius: 21px;
+}
+
+.carousel__title{
+    width: 300px;
+    font-size: 61px;
+    line-height: 67px; 
+    color: #C9AC8C;
+}

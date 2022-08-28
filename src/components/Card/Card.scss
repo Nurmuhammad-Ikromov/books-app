@@ -1,0 +1,50 @@
+@import '../../assets/styles/variables.scss';
+.card__link {
+	display: inline-block;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+
+.card__img {
+	width: $card-width;
+	border-radius: $card-radius;
+}
+
+.card__title {
+	font-size: 20px;
+	line-height: 22px;
+	color: #c9ac8c;
+	margin: 0;
+	margin-bottom: 4px;
+}
+.card__body {
+	padding: 0 10px;
+	padding-top: 17px;
+
+	&--author{
+		padding-bottom: 17px;
+	}
+}
+
+.card__author {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 144.4%;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.card__date {
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(255, 255, 255, 0.6);
+	margin: 0;
+	margin-top: 10px;
+}
+
+.card-author-img{
+	width: 174px;
+	height: 132px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}

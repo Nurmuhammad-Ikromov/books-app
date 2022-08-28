@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1320px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align: middle;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }

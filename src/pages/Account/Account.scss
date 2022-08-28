@@ -1,0 +1,144 @@
+.settings__form {
+	display: flex;
+}
+
+.settings__form-main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding-top: 50px;
+}
+
+.settings__title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+
+.settings__label {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #464e5f;
+	margin-bottom: 7px;
+}
+
+.settings__input {
+	background-color: #f3f6f9;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 21px;
+	color: #464e5f;
+	padding: 12px 20px;
+	margin-bottom: 40px;
+}
+
+.settings__form-data {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.settings__form-phone {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	width: 45%;
+}
+
+.settings__form-email {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.settings__form-submit {
+	margin-left: auto;
+	width: 140px;
+	background-color: #152540;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 20px;
+	color: #ffffff;
+	padding: 12px 25px;
+	display: block;
+}
+
+.settings__inner {
+	padding-left: 200px;
+}
+.settings__file-box {
+	position: relative;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+.settings__active-inner {
+	padding-left: 0;
+}
+.settings__camera-label {
+	position: absolute;
+	top: 140px;
+	right: 0;
+	background-color: #f3f6f9;
+	border-radius: 8px;
+	padding: 12px 8px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.settings__profil-img {
+	border-radius: 50%;
+}
+
+.mode {
+	display: inline-block;
+	width: 55px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	padding: 1px;
+	transition: all 0.3s ease;
+	background: #f3f6f9;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mode__span {
+	display: inline-block;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	background-color: #fff;
+	transition: all 0.3s ease;
+}
+
+.mode-input:checked ~ .mode > .mode__span {
+	transform: translateX(25px);
+	background-color: #3699ff;
+}
+.settings__inner-box{
+	padding: 80px 200px;
+}
+
+.lang-box{
+	margin-bottom: 30px;
+}
+.lang-label{
+	display: block;
+	margin-bottom: 7px;
+
+}
+
+.lang-select{
+	width: 100%;
+	font-size: 14px;
+	line-height: 21px;
+	color: #464E5F;
+	padding: 12px 20px;
+	background-color: #F3F6F9;
+	border-radius: 4px;
+	border: none;
+}
+
+.theme-box{
+	margin-bottom: 70px;
+}

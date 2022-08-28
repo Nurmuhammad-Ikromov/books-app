@@ -1,0 +1,45 @@
+.account {
+}
+
+.header-list {
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.header-list__item {
+	& + & {
+		margin-left: 4px;
+	}
+
+	border-radius: 4px 4px 0px 0px;
+}
+
+.header-list__link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: #464e5f;
+	padding: 22px;
+	width: 300px;
+	background-color: #f3f6f9;
+
+	&--active > svg {
+		& > path {
+			fill: #fff;
+		}
+
+		& > rect {
+			fill: #152540;
+		}
+	}
+	&--active {
+		color: #152540;
+        background-color: #fff;
+	}
+}

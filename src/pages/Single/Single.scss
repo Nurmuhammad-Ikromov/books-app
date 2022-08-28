@@ -1,0 +1,154 @@
+.single {
+	padding: 60px 0;
+}
+.single-book {
+	display: flex;
+	justify-content: space-between;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.single-book__title {
+	font-size: 48px;
+	line-height: 53px;
+	color: #c9ac8c;
+	margin: 0;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+}
+
+.single-book__author {
+	color: #c9ac8c;
+}
+
+.single-img {
+	border: 4px solid #000;
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+.single-title {
+	color: #f00;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.single-book__info {
+	max-width: 700px;
+	width: 100%;
+}
+
+.single-page__formats {
+	display: flex;
+}
+
+.single-page__paper {
+	text-align: center;
+
+	& + & {
+		margin-left: 28px;
+	}
+}
+
+.single-book__pages,
+.single-book__year,
+.single-book__genre,
+.single-book__write {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 20px 0;
+}
+
+.single-book__write {
+	margin-bottom: 48px;
+}
+
+.single__link {
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 20px;
+	text-decoration: none;
+
+	&--active {
+		color: #c9ac8c;
+	}
+}
+
+.single-author__info-box {
+	width: 360px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.single-author__info {
+	font-size: 20px;
+	line-height: 22px;
+	color: #c9ac8c;
+	text-transform: uppercase;
+}
+
+.author-books__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.author-books__title {
+	font-size: 31px;
+	line-height: 34px;
+	color: #c9ac8c;
+}
+
+.author-books__link {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.author-books__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.single-author__year-birth {
+	font-size: 39px;
+	line-height: 144.4%;
+	color: #c9ac8c;
+	margin-bottom: 0;
+}
+
+.single-author__year-left {
+	margin-top: 40px;
+}
+
+.single-author__year {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.favourite__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.favourite__link {
+	font-size: 22px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.favourite-title{
+	font-size: 22px;
+	line-height: 25px;
+	color: #C9AC8C;
+}

@@ -1,0 +1,41 @@
+.home {
+	position: relative;
+	padding-top: 55px;
+}
+
+
+.home__search-box{
+	position: absolute;
+	top: 340px;
+	left: calc(14%);
+
+	margin: 0 auto;
+}
+.home__link,
+.home__active-link {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 20px;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0 25px;
+}
+
+.home__active-link {
+	color: #c9ac8c;
+}
+.home__category{
+	margin-top: 160px;
+	text-align: center;
+
+}
+.home__category-title {
+	font-size: 31px;
+	line-height: 34px;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #c9ac8c;
+}
+.home__category-box {
+	margin-bottom: 40px;
+}

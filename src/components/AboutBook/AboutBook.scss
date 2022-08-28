@@ -1,0 +1,41 @@
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quote__box {
+    max-width: 700px;
+    width: 100%;
+    padding: 40px 40px 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.quote__info {
+    display: inline-block;
+    width: 500px;
+	font-size: 16px;
+	line-height: 24px;
+   
+}
+
+.quote__info-bottom {
+    text-align: end;
+}
+
+.quote__info-share {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+
+.quote__info-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-right: 15px;
+}
+.quote__info-active > svg > path{
+    fill: red;
+}

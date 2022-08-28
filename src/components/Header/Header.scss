@@ -1,0 +1,121 @@
+@import '../../assets/styles/mixin.scss';
+@import '../../assets/styles/variables.scss';
+
+.site-header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.site-header__inner {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.site-header__input {
+	margin-left: auto;
+}
+.navbar {
+	margin-left: auto;
+	margin-right: 120px;
+}
+.navbar__list {
+	@include flex-starter;
+	@include list-starter;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.navbar__item + .navbar__item {
+	margin-left: 23px;
+}
+
+.navbar__link {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 300;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 144.4%;
+}
+
+.active-link {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 144.4%;
+	color:  #C9AC8C;
+	cursor: pointer;
+
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+		top: 60px;
+		width: 80%;
+		border-bottom: 2px solid #ffffff;
+	}
+}
+
+.profile {
+	position: absolute;
+	z-index: 10;
+	top: 80px;
+	right: 0;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	border: 1px solid #fff;
+	border-top: none;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 10px;
+	background-color: #191919;
+}
+
+.profile__link {
+	display: inline-block;
+	width: 150px;
+	color: #fff;
+	margin: 0;
+	padding: 10px 20px;
+	background-color: #191919;
+	text-decoration: none;
+
+	&:hover {
+		background-color: rgb(201, 172, 140);
+		transition: all 0.5s ease;
+		padding-left: 30px;
+	}
+}
+
+.profile__item {
+	width: 150px;
+	color: #fff;
+	margin: 0;
+	background-color: #191919;
+	&:nth-child(4) {
+		padding: 10px 20px;
+	}
+	&:nth-child(4):hover {
+		background-color: #f00;
+		padding-left: 30px;
+		transition: all 0.5s ease;
+		cursor: pointer;
+	}
+}
+
+.site-header_profil-img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.site-header_profil-btn {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
