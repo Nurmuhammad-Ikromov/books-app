@@ -14,9 +14,6 @@ export const Mustaqillik = ({type}) => {
 	console.log(book);
 	return (
 		<div>
-			<h2 >Mustaqillik</h2>
-
-			
 			<ul className='book-list'>
 				{book.length && book.map((el) => <li className='book-item'>{
 					type === 'author'? <CardAuthor item={el} /> : <Card item={el} />
